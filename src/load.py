@@ -72,4 +72,5 @@ def store_data_in_db(data, index=0):
         session.close()
         print("Data processing complete. Session closed.")
         index = len(data['title'])
+        return index
 
