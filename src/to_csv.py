@@ -26,5 +26,3 @@ for url in urls:
 df =  check_duplicates(data)
 # Store as csv
 df.to_csv('data.csv')
-    # store_data_in_db(df.loc[index:])
-    # index = df.shape[0]
